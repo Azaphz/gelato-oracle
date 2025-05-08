@@ -79,9 +79,7 @@ Então, decidimos **utilizar IA** para **antecipar a demanda** com base nas prev
 
 ---
 
-## 📷 Prints do Processo
-
-### 🔁 Adicione imagens no GitHub com estas referências:
+## 📷 Print do Processo
 
 * ![AutoML Resultados](./modelo_azure_pipeline.png)
   
