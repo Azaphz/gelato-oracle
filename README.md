@@ -81,16 +81,18 @@ Então, decidimos **utilizar IA** para **antecipar a demanda** com base nas prev
 
 ## 📷 Print do Processo
 
-* ![AutoML Resultados](./modelo_azure_pipeline.png)
+*![AutoML Resultados](./modelo_azure_pipeline.png)
+ 
+*![Análise de modelos](./analise_modelos.png)
   
-* ![Consumo da API](./consumir_modelo.py)
+*![Consumo da API](./consumir_modelo.py)
 
 ---
 
 ## 📈 Resultados
 
 * **R² Score:** `0.86264`
-* **MAE (Erro Médio Absoluto):** 🔁 `12.289`
+* **MAE (Erro Médio Absoluto):** `12.289`
 
 > Resultados excelentes para um modelo simples baseado em apenas uma feature (temperatura). Mostra o poder do AutoML na prática! 🚀
 
@@ -110,8 +112,8 @@ data = {
 
 body = str.encode(json.dumps(data))
 
-url = '🔁 URL do seu endpoint aqui'
-api_key = '🔁 Sua API Key'
+url = 'URL do seu endpoint aqui'
+api_key = ' Sua API Key'
 headers = {'Content-Type':'application/json', 'Authorization':('Bearer '+ api_key)}
 
 req = urllib.request.Request(url, body, headers)
