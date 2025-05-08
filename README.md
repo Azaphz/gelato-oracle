@@ -100,28 +100,7 @@ Então, decidimos **utilizar IA** para **antecipar a demanda** com base nas prev
 
 ## 🚀 Como usar o modelo (consumo da API)
 
-```python
-import urllib.request
-import json
-
-data = {
-  "data": [
-    {"temperatura_celsius": 30}
-  ]
-}
-
-body = str.encode(json.dumps(data))
-
-url = 'URL do seu endpoint aqui'
-api_key = ' Sua API Key'
-headers = {'Content-Type':'application/json', 'Authorization':('Bearer '+ api_key)}
-
-req = urllib.request.Request(url, body, headers)
-
-response = urllib.request.urlopen(req)
-result = response.read()
-print(result)
-```
+> Acesse o arquivo "consumir_modelo.py e rode o código!
 
 ---
 
@@ -140,7 +119,7 @@ print(result)
 Projeto entregue com sucesso e pronto para integrar ao portfólio!
 
 🔗 **Link para o projeto publicado:**
-[https://github.com/SeuUsuario/gelato-magico-ml-regression](https://github.com/Azaphz/gelato-oracle)*
+[https://github.com/Azaphz/gelato-oracle](https://github.com/Azaphz/gelato-oracle)
 
 ---
 
