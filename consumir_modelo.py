@@ -1,7 +1,6 @@
 import urllib.request
 import json
 
-# Request data goes here
 # The example below assumes JSON formatting which may be updated
 # depending on the format your endpoint expects.
 # More information can be found here:
@@ -12,7 +11,7 @@ body = str.encode(json.dumps(data))
 
 url = 'https://workspacedio-lzwtx.eastus.inference.ml.azure.com/score'
 # Replace this with the primary/secondary key, AMLToken, or Microsoft Entra ID token for the endpoint
-api_key = ''
+api_key = 'F0u97JS4Dx1WkMpc1UEaar4lgmpRgFD7q3OF7CPpLx97kfHBgwtpJQQJ99BEAAAAAAAAAAAAINFRAZMLQRJn'
 if not api_key:
     raise Exception("A key should be provided to invoke the endpoint")
 
